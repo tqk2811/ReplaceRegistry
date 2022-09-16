@@ -8,7 +8,7 @@ namespace ReplaceRegistry
     public static class Program
     {
         //some subkey need system account
-        //use PsExec.exe from SysinternalsSuite for run as system
+        //use PsExec.exe (run as admin) from SysinternalsSuite for run as system
         //PsExec.exe -i -s ReplaceRegistry.exe
 
         const string find = "D:\\Windows Kits";
